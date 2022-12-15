@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+        <link rel="stylesheet" href="css/base.css">
+    </head>
+    <body>
+        <header>
+            <h1>Football World Cup 2018 Best Matches</h1>
+            <nav id="mainmenu">
+                <b>Form |</b>
+                <a href ="index.html" title="Jump to Home">Home</a>
+                <a href ="overview.html" title="Jump to the overview">Overview</a>
+                <a href ="teams.html" title="Jump to the temas">Teams</a>
+                <a href ="form.html" title="Jump to the form">Form</a>
+            </nav>
+        </header>
+        <br>
+        <br>
+
+        <form action="mailto:o83aqr@inf.elte.hu" method="post" enctype="text/plain">
+            <label for="name">name</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password" placeholder="password">
+            <br>
+            <br>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" placeholder="email">
+            <br>
+            <p>Q. How did you get to know our website?</p>
+            <input type="radio" name="Get to know by" value="Social media">Soical media
+            <input type="radio" name="Get to know by" value="Browsing">Browsing
+            <input type="radio" name="Get to know by" value="Other websites">Other websites
+            <input type="radio" name="Get to know by" value="Other">Other
+            <br>
+            <br>
+            <p>Q. Whihch match excites you most? (you can select more than one.)</p>
+            <input type="checkbox" name="matches" value="France vs Croatia (Final)">France vs Croatia (Final)
+            <br>
+            <input type="checkbox" name="matches" value="Brazil vs Bergian (Round of 8)">Brazil vs Bergium (Round of 8)
+            <br>
+            <input type="checkbox" name="matches" value="Japan vs Belgium (Round of 16)">Japan vs Belgium (Roudn of 16)
+            <br>
+            <input type="checkbox" name="matches" value="Portgual vs Spain (Group Stage)">Porutgual vs Spain (Group Stage)
+            <br>
+            <input type="checkbox" name="matches" value="France vs Croatia (Group Stage)">Nigeria vs Algentina (Group Stage)
+            <br>
+            <br>
+            <input type="checkbox" name="matches" value="Others (Please write them down in a comment below)">Others (Please write them down in a comment below)
+            <br>
+            <p>Comment</p>
+            <textarea name="Comment" id="comment" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear All">
+        </form>
+    </body>
+</html>
